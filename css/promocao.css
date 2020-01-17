@@ -1,0 +1,132 @@
+/*corpo*/
+body {
+    font-size: 15px;
+    line-height: 1.52;
+    color: #717f86;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+.bg-color{
+    background-color: RGBA(0, 0, 0, 0.61);
+    min-height: 630px;
+}
+
+/*Menu*/
+.menu-icon
+{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+/*prato do dia*/
+#event{
+    background: url('../img/res02.jpg') no-repeat;
+    background-size: cover;
+}
+.left-images img {
+    height: 308px;
+    width: 100%;
+}
+.left-images{
+    padding: 0px;
+}
+.details-text {
+    border-right: 2px solid #841b2d;
+}
+.details-text {
+    background-color: rgba(14, 4, 4, 0.70);
+    border-right: 2px solid #A87F41;
+    padding: 20px 20px 30px 30px;
+    overflow: auto;
+}
+.content-holder h2 {
+    color: #FFB03B;
+    font-size: 32px;
+    padding-bottom: 15px;
+    font-family: 'Satisfy', sans-serif;
+}
+.content-holder address strong {
+    color: #FFB03B;
+    padding: 10px 0px;
+}
+.details-text p {
+    color: #E8E8E8;
+    line-height: 26px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.btn-read-more {
+    background: #FFB03B;
+    padding: 7px 19px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.btn-read-more:hover
+{
+    color: #000;
+}
+#Container .mix{
+    display: none;
+}
+.header-h {
+    color: #FFB03B;
+    font-size: 46px;
+    font-family: 'Satisfy', sans-serif;
+    font-weight: 300;
+}
+.header-p {
+    color: #9699a6;
+    font-size: 16px;
+}
+/*formatacao do rodape */
+footer#rodape{
+    clear: both;
+    border-top: 2px solid #606060;
+}
+footer#rodape p{
+    text-align: center;
+    color: #111;
+}
+footer#rodape img {
+    width: 30px;
+}

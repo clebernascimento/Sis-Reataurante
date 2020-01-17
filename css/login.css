@@ -1,0 +1,30 @@
+
+#mycontainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#mybox{
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #9C9C9C;
+}
+#mybox input{
+    font-size: larger;
+}
+/*formatacao do rodape */
+footer#rodape{
+    clear: both;
+    border-top: 2px solid #606060;
+}
+footer#rodape p{
+    text-align: center;
+    color: #111;
+}
+footer#rodape img {
+    width: 30px;
+}
